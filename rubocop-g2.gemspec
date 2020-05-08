@@ -3,10 +3,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'rubocop/g2/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'rubocop_g2'
+  spec.name          = 'rubocop-g2'
   spec.version       = RuboCop::G2::VERSION
   spec.authors       = ['Paul Mannino']
-  spec.email         = ['pmannino@g2crowd.com']
+  spec.email         = ['pmannino@g2.com']
 
   spec.summary       = 'Custom cops for G2.'
   spec.homepage      = 'https://g2.com'
