@@ -1,0 +1,13 @@
+AllCops:
+  RSpec:
+    Patterns:
+      - '_spec.rb$'
+
+Lint/Void:
+  Enabled: false
+
+RSpec/LetSetup:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Max: 6

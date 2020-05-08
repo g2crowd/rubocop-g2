@@ -1,0 +1,20 @@
+Rails:
+  Enabled: true
+
+Rails/DynamicFindBy:
+  Whitelist:
+    - find_by_sql
+    - find_by_friendly_id
+
+Rails/FilePath:
+  EnforcedStyle: slashes
+
+Rails/SkipsModelValidations:
+  Enabled: false
+
+Rails/UnknownEnv:
+  Environments:
+    - production
+    - test
+    - development
+    - staging
