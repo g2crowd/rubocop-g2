@@ -63,6 +63,9 @@ Style/FormatStringToken:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
+Style/HashAsLastArrayItem:
+  Enabled: false
+
 Style/HashEachMethods:
   Enabled: true
 
