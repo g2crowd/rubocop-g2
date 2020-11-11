@@ -1,7 +1,6 @@
-AllCops:
-  RSpec:
-    Patterns:
-      - '_spec.rb$'
+RSpec:
+  Include:
+    - '_spec.rb$'
 
 Lint/Void:
   Enabled: false
